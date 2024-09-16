@@ -6,13 +6,13 @@ public class Exercicio9 {
 
 	public static void main(String[] args) {
 		
-		  Scanner scanner = new Scanner(System.in);
+		  Scanner sc = new Scanner(System.in);
 
 	        System.out.print("Digite o tipo de cliente (1 para residência, 2 para comércio, 3 para indústria): ");
-	        int tipoCliente = scanner.nextInt();
+	        int tipoCliente = sc.nextInt();
 
 	        System.out.print("Digite o consumo de energia em kWh: ");
-	        double consumo = scanner.nextDouble();
+	        double consumo = sc.nextDouble();
 	        
 	        double valorKWh = 0.0;
 
